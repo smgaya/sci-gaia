@@ -1,0 +1,48 @@
+﻿Instruction on Assignment 2
+
+1-step
+Pre-requirements.
+You must have accounts in the following online tools.
+1. Must have Github account link: https://github.com/ 
+2. Must have docker account link: https://hub.docker.com/
+
+2-step
+You must install and configure  there tools in your pc 
+1. git  link :https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04
+2. docker link : https://docs.docker.com/engine/installation/linux/ubuntulinux/ 
+3. ssh-keys use step one and two of this link: https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2   
+
+3-step 
+few understanding.
+Concept to understand is Github is online file repository  for coder /programmers, have been sync to work with other automation tools to make programmer life easy  one of them is Docker hub.
+
+Docker hub is online repository of docker containers. 
+
+Docker is a linux container that carry minimum required application for easy online shipping from one point to another eg online to server or to your pc.
+There is difference docker container with different application online. Anyone can create one.
+
+Dockerfile is the file with written instruction on how you want your  docker container to have and be configured, Anyone can create docker container through dockerfile.
+
+Dockerfile  have to be create in pc, tested in pc then pushed in github to lastly be linked to docker hub for automatic creation of docker container .  
+
+1. Set ssh key to github link :http://www.wikihow.com/Add-SSH-Public-Keys-on-GitHub 
+2. understand how git works :http://swcarpentry.github.io/git-novice/02-setup.html
+3. undersrand how docker works :https://docs.docker.com/engine/userguide/ 
+4. how to build your own docker :https://docs.docker.com/engine/userguide/containers/dockerimages/ 
+4-step 
+Assignment.
+1. Create a folder eg work , With in create two folders eg web  & db .
+2. With in work make this file be recognized by version controll tool git by command “git init”
+3. Create file called README.md write what your doing in that project.
+4. Create a repository in Github with same name as “work” 
+5. Add and commit to git link: http://swcarpentry.github.io/git-novice/04-changes.html 
+6. Connect local folder and git folder using commands link: http://swcarpentry.github.io/git-novice/07-github.html 
+7. with in “db” folder Create dockerfile that required to have mysql well configured : attached 
+8. create docker file that required to have liferay well configured : attached 
+9. test if they are working using command “docker run ‘name_of_your_docker’ .”
+10. add and commit to github.
+11. Login in docker hub then create repo select automation machine  then select github, repo you want to automate .
+12. Wait for docker file to build.
+
+
+
